@@ -1,4 +1,3 @@
-const {isBrowser} = require('@frontless/core')
 const {createStore} = require('redux')
 
 module.exports = function factory({state, actions}, contextResolver = () => document.__GLOBAL) {
@@ -51,7 +50,7 @@ module.exports = function factory({state, actions}, contextResolver = () => docu
           JSON.stringify(e.$store.getState())
         )
       })
-      onMounted.bind(this)()
+      onMounted.bind(this)(this.props)
     }.bind(e)
   
     const onUnmounted = e.onUnmounted || function() {};
