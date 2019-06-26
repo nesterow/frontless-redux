@@ -1,6 +1,6 @@
 {
   "name": "@frontless/redux",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0-rc.3",
   "description": "Redux store for frontless",
   "main": "index.js",
   "scripts": {
