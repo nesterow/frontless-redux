@@ -1,0 +1,29 @@
+{
+  "name": "@frontless/redux",
+  "version": "1.0.0-rc.1",
+  "description": "Redux store for frontless",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nesterow/frontless-redux.git"
+  },
+  "keywords": [
+    "redux",
+    "riot.js",
+    "riot",
+    "state",
+    "management"
+  ],
+  "author": "Anton Nesterov <arch.nesterov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nesterow/frontless-redux/issues"
+  },
+  "homepage": "https://github.com/nesterow/frontless-redux#readme",
+  "dependencies": {
+    "redux": "^4.0.1"
+  }
+}
