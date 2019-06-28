@@ -1,5 +1,5 @@
 # frontless-redux
-Redux plugin for frontless
+Redux plugin for Riot and Frontless
 
 ```bash
 npm i @frontless/redux --save
