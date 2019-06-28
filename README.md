@@ -1,5 +1,9 @@
 # frontless-redux
-Redux store plugin for frontless
+Redux plugin for frontless
+
+```bash
+npm i @frontless/redux --save
+```
 
 ## Component settings
 `observe` - an array of property names.
