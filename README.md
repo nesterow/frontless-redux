@@ -1,5 +1,5 @@
 # frontless-redux
-Redux plugin for Riot and Frontless
+Simple redux plugin for [Frontless](https://github.com/nesterow/frontless) and [Riot.JS](https://riot.js.org)
 
 ```bash
 npm i @frontless/redux --save
