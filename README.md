@@ -23,6 +23,15 @@ The plugin extends component's scope with following properties:
 ## Hooks
 `onAction(data)` - fires whenever a redux action is dispatched
 
+## Plugin factory
+Plugin factory accepts two positional arguments: `store( Object<{state, actions}> , Function<Context> )`
+Second argument is a *context resolver* function it has to return any global object where Redux store instance should be kept, defaults to `document.__GLOBAL`.
+
+```javascript
+import store from '@frontles/redux'
+const plugin = store({ state, actions,}, () => window)
+```
+
 ## Usage
 
 ```javascript
@@ -44,10 +53,8 @@ The plugin extends component's scope with following properties:
   }
  }
  
- riot.install(store({
-  state,
-  actions,
- }))
+ const plugin = store({ state, actions,}, () => window)
+ riot.install(plugin)
  
 ```
 
