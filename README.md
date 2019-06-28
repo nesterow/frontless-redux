@@ -17,7 +17,7 @@ export default {
 ## Properties
 The plugin extends component's scope with following properties:
 1. `this.$store` - Redux store instance
-2. `this.$state` - Store state
+2. `this.$state` - The state
 
 
 ## Hooks
